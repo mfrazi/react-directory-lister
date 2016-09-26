@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+}
+.hideOverflow{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    width:100%;
+    display:block;
+}
+.boldHover:hover{
+    background-color: aliceblue;
+ }
+#loader{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    display: table;
+    background: rgba(105,105,105, 0.2);
+    z-index: 1000;
+}
+#loader-img-container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#navbar-margin {
+    margin-bottom: 40px;
+}
+#app {
+    min-height: 87%;
+    margin-bottom: -90px;
+    padding-bottom: 90px;
+}
+#footer {
+    position: relative;
+    margin-top: 90px;
+}
+#footer-content {
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+.file-icon {
+    margin-right: 7px;
+}
